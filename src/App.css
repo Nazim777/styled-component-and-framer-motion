@@ -36,3 +36,27 @@
     transform: rotate(360deg);
   }
 }
+
+
+.box-container{
+  padding-bottom: 20rem;
+}
+
+.box{
+  height: 25rem;
+  width: 25rem;
+  background-color: aquamarine;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.boxitem{
+  height: 2rem;
+  width: 2rem;
+  background-color: white;
+  padding: 0.5rem;
+  margin: 1rem;
+  list-style: none;
+}
